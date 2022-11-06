@@ -2,8 +2,8 @@
     margin: 10px
 }
 .input_box {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     outline: auto;
 }
 .input_container {
@@ -16,4 +16,5 @@
     height: 30px;
     background: #76a0f0;
     color: white;
+    
 }
