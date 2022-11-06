@@ -52,15 +52,22 @@ function App() {
     setDisability(state => state = disct/arrayLength * 100); 
   }
 
+  function clear(){
+    setMas(state => state = 0); 
+    setFem(state => state = 0); 
+    setRace(state => state = 0); 
+    setDisability(state => state = 0); 
+  }
+
   return (
     <div className="App">
       <Navbar/>
       <div className='big_container'>
         <div className='input_outercontain'>
         <Input setText={setText}/>
-        </div>
-        <p>The text is: {text}</p>
         <button className="button" onClick={() => processText()}>Submit!</button>
+        <button className="button" onClick={() => clear()}>Clear!</button>
+        </div>
       <div className='profile_container'>
         <h3>Suggestions</h3>
       <Profile
