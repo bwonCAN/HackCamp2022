@@ -6,6 +6,7 @@ function Profile (props) {
         <div className="profile">
             <p className="heading">{props.heading}</p>
             <p className="description"> {props.description} </p>
+            <h2>{props.percentage} %</h2>
 
 
         </div>
