@@ -15,7 +15,7 @@ function Input({textHandler}){
 
     return (
         <div className="input">
-            <p>Enter text here</p>
+            <h3>unnamed document</h3>
             <form className="input_container" onSubmit={handleText}>
                 <textarea onChange={e => setText(e.target.value)} className="input_box" type="text"></textarea>
                 <button className="button" type="submit">Submit!</button>                 {/*add button function */}

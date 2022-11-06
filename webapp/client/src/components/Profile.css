@@ -11,21 +11,28 @@
   .profile {
       display: flex;
       flex-direction: column;
-      width: 200px;
       text-align: center;
   
-      padding: 20px;
-      margin: 20px;
+      padding: 10px;
+      margin: 10px;
       border-radius: 15px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      float: right;
+      transition: 0.3s;
+  }
+
+  .profile:hover{
+    scale: 110%;
   }
 
   .heading {
     flex-direction: row;
     font-size: 20px;
-    padding: 5%;
+    padding: 5px;
 
+  }
+
+  .description{
+    font-size: 13px;
   }
 
  
