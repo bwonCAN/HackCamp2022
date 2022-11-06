@@ -9,6 +9,10 @@
     background-color: white;
     padding: 10px;
     box-shadow: 0 0 5px black;
+    position: fixed;
+  left: 0;      /* ADDED */
+  top: 0;       /* ADDED */
+  width: 100%;
 }
 
 .items_container{

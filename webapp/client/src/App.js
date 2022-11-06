@@ -17,6 +17,7 @@ function App() {
   const [disability, setDisability] = useState(0);
 
   function processText() {
+    let text = "This !!!job posting is for you.";
     const punctuationless = text.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
     const text_array = punctuationless.split(" ");
     var arrayLength = text_array.length;
@@ -49,8 +50,8 @@ function App() {
         <p>The text is: {text}</p>
         <button className="button" onClick={() => processText()}>Submit!</button>
       <div className='profile_container'>
-        <div className='big_container'>
-        <Profile
+        <h3>Suggestions</h3>
+      <Profile
       heading= "Masculine"
       description= "There is X% masculine bias detected in the text. Changes are recommended."
       percentage = {mas}
@@ -60,9 +61,7 @@ function App() {
       description= "There is X% feminine bias detected in the text. Changes are recommended."
       percentage = {fem}
       />
-        </div>
-        <div className='big_container'>
-        <Profile
+      <Profile
       heading= "Race"
       description= "There is X% racial bias detected in the text. Changes are recommended."
       percentage = {race}
@@ -72,7 +71,6 @@ function App() {
       description= "There is X% disability bias detected in the text. Changes are recommended."
       percentage = {disability}
       />
-        </div>
       </div>
       </div>
     </div>
