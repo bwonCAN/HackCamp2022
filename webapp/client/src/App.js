@@ -16,28 +16,40 @@ function App() {
   const [race, setRace] = useState(0);
   const [disability, setDisability] = useState(0);
 
+  function checkEmpty(string){
+    return string != '';
+  }
+
   function processText() {
-    let text = "This !!!job posting is for you.";
     const punctuationless = text.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
-    const text_array = punctuationless.split(" ");
+    const lower = punctuationless.toLowerCase();
+    const text_array = lower.split(" ").filter(checkEmpty);
     var arrayLength = text_array.length;
-    console.log(text_array)
-    var ct = 0;
+    console.log(text_array);
+    var masct = 0;
+    var femct = 0;
+    var racct = 0;
+    var disct = 0;
+
 
     for (var i = 0; i < arrayLength; i++) {
       if (masculine_terms.includes(text_array[i])) {
-        setMas(state => state + 1); 
+        masct = masct + 1;
       }
       if (feminine_terms.includes(text_array[i])) {
-        setFem(state => state + 1); 
+        femct = femct + 1;
       }
       if (racial_terms.includes(text_array[i])) {
-        setRace(state => state + 1); 
+        racct = racct + 1;
       }
       if (disability_terms.includes(text_array[i])) {
-        setDisability(state => state + 1); 
+        disct = disct + 1;
       }
     }
+    setMas(state => state = masct/arrayLength * 100); 
+    setFem(state => state = femct/arrayLength * 100); 
+    setRace(state => state = racct/arrayLength * 100); 
+    setDisability(state => state = disct/arrayLength * 100); 
   }
 
   return (
