@@ -8,7 +8,7 @@ function Input(){
             <p>Enter text here</p>
             <form className="input_container">
                 <textarea className="input_box" type="text"></textarea>
-                <button className="button">Submit</button>                 {/*add button function */}
+                <button className="button">Submit!</button>                 {/*add button function */}
             </form>
 
         </div>

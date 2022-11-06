@@ -1,16 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Input from './components/Input.js';
+import Navbar from './components/Navbar.js';
 
 function App() {
   return (
     <div className="App">
-      //<header className="App-header">
-        // <img src={logo} className="App-logo" alt="logo" />
-        // <p>
-        //   Edit <code>src/App.js</code> and save to reload.
-        // </p>
-        <h1>Hello world</h1>
-      //</header>
+      <Navbar/>
+      <Input/>
     </div>
   );
 }
