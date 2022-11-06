@@ -5,7 +5,7 @@ function Profile (props) {
     return ( 
         <div className="profile">
             <p className="heading">{props.heading}</p>
-                <p className="description"> {props.description} </p>
+            <p className="description"> {props.description} </p>
 
 
         </div>
