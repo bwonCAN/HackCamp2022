@@ -1,7 +1,7 @@
 import './App.css';
 import Input from './components/Input.js';
 import Navbar from './components/Navbar.js';
-import Profile from './componenets/Profile.js';
+import Profile from './components/Profile.js';
 
 function App() {
   return (
