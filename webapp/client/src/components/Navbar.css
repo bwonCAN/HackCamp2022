@@ -4,7 +4,9 @@
 }
 
 .navbar_container{
-    display: static;
+    position: absolute;
+    top:0;
+    width: 100%;
     z-index: 1000;
     background-color: white;
     padding: 10px;
