@@ -1,4 +1,4 @@
-const masculine_terms = [
+export const masculine_terms = [
 "active",
 "adventurous",
 "aggress",
@@ -53,7 +53,7 @@ const masculine_terms = [
 "unreasonab"]
 
 
-const feminine_terms = [
+export const feminine_terms = [
 "agree",
 "affectionate",
 "child",
@@ -105,13 +105,13 @@ const feminine_terms = [
 'share',
 'sharin']
 
-const racial_terms = [
+export const racial_terms = [
     "native", 
     "english-speak", 
     "language", 
     "fluent"]
 
-const disability_terms = [
+export const disability_terms = [
     "stand", 
     "lift", 
     "carry"]

@@ -3,8 +3,10 @@ import Input from './components/Input.js';
 import Navbar from './components/Navbar.js';
 import Profile from './components/Profile.js';
 import { useState } from 'react';
-
-
+import { masculine_terms } from './dictionary.js';
+import { feminine_terms } from './dictionary.js';
+import { racial_terms } from './dictionary.js';
+import { disability_terms } from './dictionary.js';
 
 
 function App() {
@@ -14,23 +16,38 @@ function App() {
   const [race, setRace] = useState(0);
   const [disability, setDisability] = useState(0);
 
-  function textHandler(string){
-    setText(string);
-  }
-
   function processText() {
     const punctuationless = text.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
     const text_array = punctuationless.split(" ");
-    console.log(text_array);
+    var arrayLength = text_array.length;
+    console.log(text_array)
+    var ct = 0;
+
+    for (var i = 0; i < arrayLength; i++) {
+      if (masculine_terms.includes(text_array[i])) {
+        setMas(state => state + 1); 
+      }
+      if (feminine_terms.includes(text_array[i])) {
+        setFem(state => state + 1); 
+      }
+      if (racial_terms.includes(text_array[i])) {
+        setRace(state => state + 1); 
+      }
+      if (disability_terms.includes(text_array[i])) {
+        setDisability(state => state + 1); 
+      }
+    }
   }
-  processText();
+
   return (
     <div className="App">
       <Navbar/>
       <div className='big_container'>
         <div className='input_outercontain'>
-        <Input textHandler = {textHandler}/>
+        <Input setText={setText}/>
         </div>
+        <p>The text is: {text}</p>
+        <button className="button" onClick={() => processText()}>Submit!</button>
       <div className='profile_container'>
         <div className='big_container'>
         <Profile

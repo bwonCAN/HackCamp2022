@@ -11,10 +11,11 @@
     flex-direction: column;
 }
 .button{
-    margin: 10px;
+    margin-left: auto;
     width: 60px;
     height: 30px;
     background: #76a0f0;
     color: white;
+
     
 }
