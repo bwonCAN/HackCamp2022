@@ -4,6 +4,7 @@
 .input_box {
     width: 500px;
     height: 300px;
+    outline: auto;
 }
 .input_container {
     display: flex;
