@@ -13,16 +13,16 @@ function App() {
         </div>
       <div className='profile_container'>
       <Profile
-      heading= "Gender"
-      description= "There is X% gender bias detected in the text. Changes are recommended."
+        heading= "Gender"
+        description= "There is X% gender bias detected in the text. Changes are recommended."
       />
       <Profile
-      heading= "Race"
-      description= "There is X% racial bias detected in the text. Changes are recommended."
+        heading= "Race"
+        description= "There is X% racial bias detected in the text. Changes are recommended."
       />
       <Profile
-      heading= "Disability"
-      description= "There is X% disability bias detected in the text. Changes are recommended."
+        heading= "Disability"
+        description= "There is X% disability bias detected in the text. Changes are recommended."
       />
       </div>
       </div>
