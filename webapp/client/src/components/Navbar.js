@@ -5,7 +5,7 @@ function Navbar(){
     return(
         <div className="navbar_container">
             <div className="items_container">
-                <div>Genderly</div>
+                <div>EQUAL WRITE</div>
             </div>
         </div>
     )

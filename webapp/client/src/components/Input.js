@@ -15,7 +15,7 @@ function Input(props){
         <div className="input">
             <h3>unnamed document</h3>
             <form className="input_container" onSubmit={handleText}>
-                <textarea onChange={e => props.setText(e.target.value)} className="input_box" type="text" placeholder="Enter text here..."></textarea>
+                <textarea onChange={e => props.setText(e.target.value)} className="input_box" type="text" placeholder="Type or paste (⌘+V) your text here or upload a document"></textarea>
                               {/* removed button here */}
             </form>
 
