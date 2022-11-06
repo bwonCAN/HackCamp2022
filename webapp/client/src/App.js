@@ -7,8 +7,11 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Input/>
-
+      <div className='big_container'>
+        <div className='input_outercontain'>
+        <Input/>
+        </div>
+      <div className='profile_container'>
       <Profile
       heading= "Gender"
       description= "There is X% gender bias detected in the text. Changes are recommended."
@@ -21,6 +24,8 @@ function App() {
       heading= "Disability"
       description= "There is X% disability bias detected in the text. Changes are recommended."
       />
+      </div>
+      </div>
     </div>
   );
 }
