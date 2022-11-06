@@ -34,7 +34,8 @@ function App() {
         <Input textHandler = {textHandler}/>
         </div>
       <div className='profile_container'>
-      <Profile
+        <div className='big_container'>
+        <Profile
       heading= "Masculine"
       description= "There is X% masculine bias detected in the text. Changes are recommended."
       percentage = {mas}
@@ -44,7 +45,9 @@ function App() {
       description= "There is X% feminine bias detected in the text. Changes are recommended."
       percentage = {fem}
       />
-      <Profile
+        </div>
+        <div className='big_container'>
+        <Profile
       heading= "Race"
       description= "There is X% racial bias detected in the text. Changes are recommended."
       percentage = {race}
@@ -54,6 +57,7 @@ function App() {
       description= "There is X% disability bias detected in the text. Changes are recommended."
       percentage = {disability}
       />
+        </div>
       </div>
       </div>
     </div>
