@@ -1,1 +1,14 @@
 
+
+.big_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile_container{
+    display: flex;
+    flex-direction: column;
+}
+
+
