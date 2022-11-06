@@ -3,12 +3,12 @@ import "./Input.css";
 import { useState } from "react";
 
 
-function Input(){
+function Input({textHandler}){
     const [text, setText] = useState("");
 
     function handleText(event){
         event.preventDefault();
-        console.log(text);
+        textHandler(text);
     }
     
     
