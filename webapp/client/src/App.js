@@ -18,6 +18,13 @@ function App() {
     setText(string);
   }
 
+  function processText() {
+    let text = "This !!!job posting is for you.";
+    const punctuationless = text.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
+    const text_array = punctuationless.split(" ");
+    console.log(text_array);
+  }
+  processText();
   return (
     <div className="App">
       <Navbar/>
