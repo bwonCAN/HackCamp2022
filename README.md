@@ -26,7 +26,7 @@ See % words that are classified as masculine/feminine/racially/ableist leaning.
 
 What's on the horizon:
 
-Dynamic Improvements -> text identified as problemati will be highlights, with replacement suggestions 🙋‍♂️🙋‍♂️🙋‍♂️
+Dynamic Improvements -> text identified as problematic will be highlighted, with replacement suggestions 🙋‍♂️🙋‍♂️🙋‍♂️
 Better Identification -> use machine learning to adapt our algorithms over time 💪💪💪
 
 #EqualWritesEqualRights ✍🏻✍🏼✍🏽✍🏾✍🏿
