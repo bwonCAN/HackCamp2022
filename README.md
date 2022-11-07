@@ -1,5 +1,11 @@
-This is our project for HackCamp 2022 by nwPlus! 😁
+# This is our project for HackCamp 2022 by nwPlus! 😁 
  
+### !!! --- INSTRUCTIONS --- !!!  
+**To see our React app, in your terminal:** 
+- run "npm install"
+- ensure node_modules is present on left sidebar 
+- run "npm start"
+
 Introducing... EqualWrites ✍️✍️✍️ removing implicit biases from your writing!
 
 #EqualWritesEqualRights ✍🏻✍🏼✍🏽✍🏾✍🏿
