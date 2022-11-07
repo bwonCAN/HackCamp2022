@@ -14,9 +14,9 @@ function Input(props){
     
     return (
         <div className="input">
-            <div className="topic_container"><img src={Icon} height="40px" width="40px"></img><h3>unnamed document</h3></div>
+            <div className="topic_container"><img src={Icon} height="40px" width="40px"></img><h3>Check Your Writes!</h3></div>
             <form className="input_container" onSubmit={handleText}>
-                <textarea onChange={e => props.setText(e.target.value)} className="input_box" type="text" placeholder="Type or paste (⌘+V) your text here or upload a document"></textarea>
+                <textarea onChange={e => props.setText(e.target.value)} className="input_box" type="text" placeholder="Type or paste (⌘+V) your text here"></textarea>
                               {/* removed button here */}
             </form>
 
