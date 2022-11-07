@@ -46,10 +46,10 @@ function App() {
         disct = disct + 1;
       }
     }
-    setMas(state => state = masct/arrayLength * 100); 
-    setFem(state => state = femct/arrayLength * 100); 
-    setRace(state => state = racct/arrayLength * 100); 
-    setDisability(state => state = disct/arrayLength * 100); 
+    setMas(state => state = Math.round(masct/arrayLength * 100)); 
+    setFem(state => state = Math.round(femct/arrayLength * 100)); 
+    setRace(state => state = Math.round(racct/arrayLength * 100)); 
+    setDisability(state => state = Math.round(disct/arrayLength * 100)); 
   }
 
   function clear(){
