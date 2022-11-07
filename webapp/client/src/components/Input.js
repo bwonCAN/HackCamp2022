@@ -1,6 +1,7 @@
 import React from "react";
 import "./Input.css";
 import { useState } from "react";
+import Icon from "./icon/lightning.png";
 
 
 function Input(props){
@@ -13,7 +14,7 @@ function Input(props){
     
     return (
         <div className="input">
-            <h3>unnamed document</h3>
+            <div className="topic_container"><img src={Icon} height="40px" width="40px"></img><h3>unnamed document</h3></div>
             <form className="input_container" onSubmit={handleText}>
                 <textarea onChange={e => props.setText(e.target.value)} className="input_box" type="text" placeholder="Type or paste (⌘+V) your text here or upload a document"></textarea>
                               {/* removed button here */}
