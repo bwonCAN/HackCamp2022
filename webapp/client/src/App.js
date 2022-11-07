@@ -73,22 +73,18 @@ function App() {
       <div className='button_container'> <img height="25px" width="25px" className="profilepicture" src={Alert} alt='icon'/> <h3>Suggestions</h3></div>
       <Profile
       heading= "Masculine"
-      description= "There is X% masculine bias detected in the text. Changes are recommended."
       percentage = {mas}
       />
       <Profile
       heading= "Feminine"
-      description= "There is X% feminine bias detected in the text. Changes are recommended."
       percentage = {fem}
       />
       <Profile
       heading= "Race"
-      description= "There is X% racial bias detected in the text. Changes are recommended."
       percentage = {race}
       />
       <Profile
       heading= "Disability"
-      description= "There is X% disability bias detected in the text. Changes are recommended."
       percentage = {disability}
       />
       </div>
