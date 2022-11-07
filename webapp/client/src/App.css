@@ -15,15 +15,21 @@
     display: flex;
     flex-direction: column;
     width: 30%;
+    margin-top: 35px;
 }
 
 .input_outercontain{
     width: 70%;
+    margin-top: 10px;
 }
 
-
 h3{
+    margin-left: 10px;
+}
+
+.topic_container{
+    display: flex;
+    align-items: center;
     margin-left: 20px;
-    margin-top: 20px;
 }
 

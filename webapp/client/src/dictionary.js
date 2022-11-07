@@ -63,7 +63,11 @@ export const masculine_terms = [
 'he',
 'him',
 'his',
-'himself']
+'himself',
+'male',
+'boy',
+'man',
+'men']
 
 
 export const feminine_terms = [
@@ -126,7 +130,11 @@ export const feminine_terms = [
 'sharing',
 'she',
 'her',
-'herself']
+'herself',
+'female',
+'girl',
+'woman',
+'women']
 
 export const racial_terms = [
     "native", 
@@ -144,4 +152,6 @@ export const disability_terms = [
     'crippled',
     'retarded',
     'special needs',
+    'walk',
+    'run',
     "carry"]

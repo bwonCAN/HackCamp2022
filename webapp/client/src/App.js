@@ -22,7 +22,7 @@ function App() {
   }
 
   function processText() {
-    const punctuationless = text.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
+    const punctuationless = text.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()\r\n|\n|\r]/g, "");
     const lower = punctuationless.toLowerCase();
     const text_array = lower.split(" ").filter(checkEmpty);
     var arrayLength = text_array.length;
@@ -70,7 +70,7 @@ function App() {
         <button className="button" onClick={() => clear()}>Clear!</button>
         </div>
       <div className='profile_container'>
-      <div className='button_container'> <img height="25px" width="25px" className="profilepicture" src={Alert} alt='icon'/> <h3>Suggestions</h3></div>
+      <div className='topic_container'> <img height="25px" width="25px" className="profilepicture" src={Alert} alt='icon'/><h3>Suggestions</h3></div>
       <Profile
       heading= "Masculine"
       percentage = {mas}
