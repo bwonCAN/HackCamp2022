@@ -7,6 +7,7 @@ import { masculine_terms } from './dictionary.js';
 import { feminine_terms } from './dictionary.js';
 import { racial_terms } from './dictionary.js';
 import { disability_terms } from './dictionary.js';
+import Alert from "./images/Alert.png";
 
 
 function App() {
@@ -69,7 +70,7 @@ function App() {
         <button className="button" onClick={() => clear()}>Clear!</button>
         </div>
       <div className='profile_container'>
-        <h3>Suggestions</h3>
+      <div className='button_container'> <img height="25px" width="25px" className="profilepicture" src={Alert} alt='icon'/> <h3>Suggestions</h3></div>
       <Profile
       heading= "Masculine"
       description= "There is X% masculine bias detected in the text. Changes are recommended."
