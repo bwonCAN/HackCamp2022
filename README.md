@@ -2,9 +2,12 @@
  
 ### !!! --- INSTRUCTIONS --- !!!  
 **To see our React app, in your terminal:** 
-- run "npm install"
-- ensure node_modules is present on left sidebar 
-- run "npm start"
+- `cd webapp`
+- `cd client`
+- `npm install`
+- Ensure node_modules is present on left sidebar 
+- `npm start`
+- Have fun exploring our app!
 
 Introducing... EqualWrites ✍️✍️✍️ removing implicit biases from your writing!
 
