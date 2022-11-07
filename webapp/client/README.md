@@ -1,4 +1,4 @@
-This is our project for HackCamp 2022 by nwPlus! 😁
+### This is our project for HackCamp 2022 by nwPlus! 😁 
  
 Introducing... EqualWrites ✍️✍️✍️ removing implicit biases from your writing!
 
