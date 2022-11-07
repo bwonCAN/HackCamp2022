@@ -1,5 +1,11 @@
-### This is our project for HackCamp 2022 by nwPlus! 😁 
+# This is our project for HackCamp 2022 by nwPlus! 😁 
  
+!!! --- INSTRUCTIONS --- !!!
+To see our React app, in your terminal: 
+- run "npm install"
+- ensure node_modules is present on left sidebar 
+- run "npm start"
+
 Introducing... EqualWrites ✍️✍️✍️ removing implicit biases from your writing!
 
 #EqualWritesEqualRights ✍🏻✍🏼✍🏽✍🏾✍🏿
@@ -26,7 +32,7 @@ See % words that are classified as masculine/feminine/racially/ableist leaning.
 
 What's on the horizon:
 
-Dynamic Improvements -> text identified as problemati will be highlights, with replacement suggestions 🙋‍♂️🙋‍♂️🙋‍♂️
+Dynamic Improvements -> text identified as problematic will be highlighted, with replacement suggestions 🙋‍♂️🙋‍♂️🙋‍♂️
 Better Identification -> use machine learning to adapt our algorithms over time 💪💪💪
 
 #EqualWritesEqualRights ✍🏻✍🏼✍🏽✍🏾✍🏿
