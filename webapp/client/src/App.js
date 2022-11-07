@@ -22,7 +22,7 @@ function App() {
   }
 
   function processText() {
-    const punctuationless = text.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
+    const punctuationless = text.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()\r\n|\n|\r]/g, "");
     const lower = punctuationless.toLowerCase();
     const text_array = lower.split(" ").filter(checkEmpty);
     var arrayLength = text_array.length;
