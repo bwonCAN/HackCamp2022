@@ -17,5 +17,9 @@
 
 .items_container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.title{
+    margin-left: 10px;
 }

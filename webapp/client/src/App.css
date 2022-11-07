@@ -16,11 +16,13 @@
     flex-direction: column;
     width: 30%;
     margin-top: 35px;
+    padding: 0px 10px;
 }
 
 .input_outercontain{
     width: 70%;
     margin-top: 10px;
+    padding: 0px 20px;
 }
 
 h3{
@@ -30,6 +32,7 @@ h3{
 .topic_container{
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 

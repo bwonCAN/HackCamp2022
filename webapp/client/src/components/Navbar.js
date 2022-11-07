@@ -6,7 +6,8 @@ function Navbar(){
     return(
         <div className="navbar_container">
             <div className="items_container">
-                <div>EQUAL WRITE</div>
+                <img src={logo} width="20px" height = "20px"></img>
+                <div className="title">EQUAL WRITES</div>
             </div>
         </div>
     )
