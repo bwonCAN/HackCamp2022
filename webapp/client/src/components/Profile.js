@@ -3,11 +3,11 @@ import "./Profile.css"
 
 function Profile (props) {
     var descrip = "There is 0% bias detected. This is Equal Writes approved!";
-    if (props.percentage >= 50){
+    if (props.percentage >= 15){
         descrip = "There is " + props.percentage + "% detected. Changes are highly recommended!";
-    }else if (20 <  props.percentage && props.percentage < 50){
+    }else if (10 <  props.percentage && props.percentage < 15){
         descrip = "There is " + props.percentage + "% detected. Changes are recommended!";
-    }else if (0 < props.percentage && props.percentage <= 20){
+    }else if (3 < props.percentage && props.percentage <= 10){
         descrip = "There is " + props.percentage + "% detected. Changes are suggested!";
     }else{
         descrip = "There is 0% bias detected. This is Equal Writes approved!";
